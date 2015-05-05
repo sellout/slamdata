@@ -19,9 +19,9 @@ deploy:
   api_key: "SYixjxUW+coVNeK7k39DQLeddp4TxN0jzmjbYtXYo8X11uGJsWk6gXj4UP3w8uHgpdAt61OMDen+ixH47Y8O2mDISZiImyVDvsJqQzl2INqErl8Q9CqhCn2NdZvS7hZ/Qn9sHfL8SSXJdjiURTUt27nYigscHTFwH5AVaZPdkDQ="
   file: "slamdata.tar.bz2"
   skip_cleanup: true
-  # on:
+  on:
   #   repo: slamdata/slamdata
-  #   branch: master
+    branch: wip/publish-release
 notifications:
   irc:
     channels:
