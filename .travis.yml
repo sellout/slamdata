@@ -24,6 +24,7 @@ deploy:
   on:
     branch: wip/publish-release
     tags: true
+
 notifications:
   irc:
     channels:
